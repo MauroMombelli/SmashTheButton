@@ -46,8 +46,8 @@ void setup() {
 #define STR_HELPER(x) #x
 #define STR(x) STR_HELPER(x)
 
-#define BODY_OPEN "{\"chat_id\": "STR(CHAT_ID)", \"text\": \"The fablab is OPEN\", \"disable_notification\": true}"
-#define BODY_CLOSE "{\"chat_id\": "STR(CHAT_ID)", \"text\": \"The fablab is CLOSED\", \"disable_notification\": true}"
+#define BODY_OPEN "{\"chat_id\": "STR(CHAT_ID)", \"text\": \"The Fab Lab is OPEN\", \"disable_notification\": true}"
+#define BODY_CLOSE "{\"chat_id\": "STR(CHAT_ID)", \"text\": \"The Fab Lab is CLOSED\", \"disable_notification\": true}"
 
 uint32_t lastPress = millis();
 void loop() {
